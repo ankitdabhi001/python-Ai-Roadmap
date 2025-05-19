@@ -7,7 +7,7 @@ age=int(input("what is your current age : "))
 ans=input("i speak you one joke you listen give me answer in like 'yes/no' : ")
 
 
-print(f"hii{name}!")
+print(f"hii {name}!")
 print(f"Your Current age is {age}")
 print(f"your answer is {ans}")
 
@@ -31,5 +31,8 @@ ans=ans.lower()
 if ans.lower()=="yes":
     print(random.choice(jokes))
 
-else:
+elif ans.lower()=="no":
     print("thank you")
+
+else:
+    print("choose only yes or no")

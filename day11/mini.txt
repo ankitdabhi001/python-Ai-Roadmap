@@ -1,0 +1,12 @@
+----- Employee Detail -----
+Name : happy
+Email : abc@
+
+----- Skill -----
+python
+data analyst
+data science
+
+----- Experience -----
+1 year intern
+2 year compony

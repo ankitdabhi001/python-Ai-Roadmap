@@ -1,0 +1,9 @@
+Name: Ankit
+Email: ankit@example.com
+Skills:
+- Python
+- AI
+- Data Analysis
+Experience:
+- Intern at TCS
+- Freelancer at Upwork

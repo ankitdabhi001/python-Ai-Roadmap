@@ -1,0 +1,12 @@
+RESUME
+==============================
+Name: Ankit Sharma
+
+Experience:
+  - Intern at OpenAI
+  - Data Science Bootcamp
+
+Skills:
+  - Python
+  - Machine Learning
+

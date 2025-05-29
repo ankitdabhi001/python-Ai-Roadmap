@@ -1,0 +1,9 @@
+Name: ankit
+Email: ankit@gmail.com
+Skills:
+- python
+- exel
+- php
+Experience:
+- 1 year data intern
+- 2 year python

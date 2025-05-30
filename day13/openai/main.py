@@ -1,5 +1,5 @@
-# import openai
-# import pandas as pd
+import openai
+import pandas as pd
 
 
 print("✅ Your AI environment is ready!")

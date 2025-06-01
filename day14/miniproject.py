@@ -10,3 +10,6 @@ with model.chat_session():
     blog = model.generate(prompt)
     print("✅ Blog Generated:\n")
     print(blog)
+
+with open(f"{topic}.txt","w") as file:
+    file.write(blog)

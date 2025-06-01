@@ -1,0 +1,40 @@
+COMPONY : wander.com
+JOb: Typescript Engineer
+COMPONY : Blotato
+JOb: Senior Fullstack Software Engineer
+COMPONY : Founders Factory
+JOb: Tech Cofounder CTO
+COMPONY : HockeyStack
+JOb: Senior Backend Engineer
+COMPONY : Nami ML
+JOb: Senior React Native SDK Engineer
+COMPONY : Elevate
+JOb: Senior Full Stack Engineer
+COMPONY : Lemon.io
+JOb: Senior Full stack Developer
+COMPONY : Sanctuary Computer
+JOb: Senior Account Lead
+COMPONY : Payara
+JOb: Spanish Speaking Software Support Engineer
+COMPONY : Ideal Protein
+JOb: Senior full stack engineer
+COMPONY : Zammad
+JOb: Senior Full Stack Developer
+COMPONY : Contra
+JOb: Senior Software Engineer
+COMPONY : Ringbook
+JOb: Senior Full Stack developer
+COMPONY : Daisychain
+JOb: Full Stack Software Engineer
+COMPONY : Lumenalta
+JOb: Javascript Fullstack Engineer Senior
+COMPONY : CrazyGames
+JOb: Mobile App Developer
+COMPONY : Contra
+JOb: Senior Software Engineer
+COMPONY : Prime Design & Build
+JOb: Administrative Executive
+COMPONY : Emergent Software
+JOb: Senior Software Engineer
+COMPONY : Incyte Studios
+JOb: Full Stack Developer

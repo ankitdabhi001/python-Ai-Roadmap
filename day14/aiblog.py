@@ -6,7 +6,7 @@ openai.api_key = "sk-proj-Fb09Yqk8kHX-9_x_Y20TVqXQlPngh9vDcwW4GKP8x9WebSMOBOjyTz
 
 
 def generate_blog_post(topic):
-    response = openai.chat.completions.create(
+    response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",  # You can change to "gpt-4" if you have access
         messages=[
             {"role": "system", "content": "You are a helpful tech blogger."},

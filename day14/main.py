@@ -1,18 +1,14 @@
 from transformers import pipeline
 
-# Load a text-generation pipeline with a local model
-generator = pipeline("text-generation", model="gpt2")  # or 'tiiuae/falcon-7b-instruct' if you want something stronger
+# give task to a transformer
 
-# Prompt for blog
-prompt = input("enter your Topic to generate text : ")
+create=pipeline('text-generation',model="gpt2")
 
-# Generate content
-result = generator(prompt, max_length=50, num_return_sequences=1)
+# Give topic from user :
+topic=input("enter your blog topic : ")
 
-# Show result
-print("\n📝 Generated Blog:\n")
-print(result[0]['generated_text'])
+# generate answer using proper syntax:
+answer=create(topic,max_length=100,num_return_sequences=1)
 
-with open("blog.txt","a") as file:
-    file.write("\nGENERATED TOPIC IS GIVEN BELOW : \n")
-    file.write(result[0]['generated_text'])
+# print answer
+print(answer[0]['generated_text'])

@@ -1,0 +1,60 @@
+Job = Typescript Engineer
+compony = wander.com
+---------------------------
+Job = Lead Data Engineer
+compony = Open Architects
+---------------------------
+Job = Senior Fullstack Software Engineer
+compony = Blotato
+---------------------------
+Job = Tech Cofounder CTO
+compony = Founders Factory
+---------------------------
+Job = Senior Backend Engineer
+compony = HockeyStack
+---------------------------
+Job = Senior React Native SDK Engineer
+compony = Nami ML
+---------------------------
+Job = Senior Full Stack Engineer
+compony = Elevate
+---------------------------
+Job = Senior Full stack Developer
+compony = Lemon.io
+---------------------------
+Job = Senior Account Lead
+compony = Sanctuary Computer
+---------------------------
+Job = Spanish Speaking Software Support Engineer
+compony = Payara
+---------------------------
+Job = Senior full stack engineer
+compony = Ideal Protein
+---------------------------
+Job = Senior Full Stack Developer
+compony = Zammad
+---------------------------
+Job = Senior Software Engineer
+compony = Contra
+---------------------------
+Job = Senior Full Stack developer
+compony = Ringbook
+---------------------------
+Job = Full Stack Software Engineer
+compony = Daisychain
+---------------------------
+Job = Javascript Fullstack Engineer Senior
+compony = Lumenalta
+---------------------------
+Job = Mobile App Developer
+compony = CrazyGames
+---------------------------
+Job = Administrative Executive
+compony = Prime Design & Build
+---------------------------
+Job = Senior Software Engineer
+compony = Emergent Software
+---------------------------
+Job = Full Stack Developer
+compony = Incyte Studios
+---------------------------

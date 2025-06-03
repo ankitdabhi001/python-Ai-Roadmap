@@ -1,5 +1,7 @@
 COMPONY : wander.com
 JOb: Typescript Engineer
+COMPONY : Open Architects
+JOb: Lead Data Engineer
 COMPONY : Blotato
 JOb: Senior Fullstack Software Engineer
 COMPONY : Founders Factory
@@ -30,8 +32,6 @@ COMPONY : Lumenalta
 JOb: Javascript Fullstack Engineer Senior
 COMPONY : CrazyGames
 JOb: Mobile App Developer
-COMPONY : Contra
-JOb: Senior Software Engineer
 COMPONY : Prime Design & Build
 JOb: Administrative Executive
 COMPONY : Emergent Software

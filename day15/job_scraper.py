@@ -27,7 +27,9 @@ def analyze_trends(job_titles):
     text = "\n".join(job_titles)
 
     # Load your model (adjust model name & path if needed)
-    model = GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path="./models", allow_download=False)
+    
+    model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"
+    abc = GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path=model_path, allow_download=False)
 
     prompt = f"""
 Here is a list of job titles posted recently:\n\n{text}
@@ -35,12 +37,12 @@ Here is a list of job titles posted recently:\n\n{text}
 Summarize the trends in 3–4 bullet points. What roles, languages, or patterns stand out?
 """
     print("🧠 Sending prompt to GPT4All...")
-    response = model(prompt)
+    response =abc.generate(prompt)
     return response
 
 if __name__ == "__main__":
     # Optional: filter jobs by keyword like "Python"
-    jobs = scrape_jobs(keyword="Python")
+    jobs = scrape_jobs(keyword="Fullstack")
     print("✅ Scraped Jobs:\n", "\n".join(jobs[:10]), "\n...")
 
     if jobs:

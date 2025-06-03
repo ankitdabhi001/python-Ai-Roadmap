@@ -30,8 +30,9 @@ print("🧾 Scraped Jobs:\n")
 print(scraped_text[:500] + "\n...")  # Preview only first few lines
 
 # STEP 3: Use GPT4All (LLaMA3) to summarize
-model= GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path="./models", allow_download=False)
 
+model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"
+model = GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path=model_path, allow_download=False)
 
 prompt = f"""
 Here are some recent remote developer job postings:\n\n{scraped_text}

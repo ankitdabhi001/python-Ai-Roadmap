@@ -4,7 +4,7 @@ def build_prompt(topic,tone):
     
     topic:{topic}
     tone:{tone}
-     Write a 3–5 minute video script for a YouTube video. Include:
+     Write a 1 minute video script for a YouTube video. Include:
     - A hook (engaging intro)
     - Key talking points with a natural flow
     - A short call-to-action
@@ -19,8 +19,8 @@ def build_prompt(topic,tone):
 
 from gpt4all import GPT4All
 
-model_path = "./models/Llama-3.2-3B-Instruct-Q4_0.gguf" # adjust if needed
-llm = GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path="./models", allow_download=False)
+model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"
+llm = GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path=model_path, allow_download=False)
 
 def generate_video_script(topic, tone):
     prompt = build_prompt(topic, tone)

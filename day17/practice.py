@@ -5,7 +5,7 @@ df = pd.read_csv("sales_data.csv")
 
 # Show first 5 rows
 print("📊 Preview:")
-print(df.tail())
+print(df.head())
 
 # Clean Data
 df.dropna(inplace=True)

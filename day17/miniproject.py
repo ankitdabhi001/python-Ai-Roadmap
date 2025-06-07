@@ -32,12 +32,12 @@ print(order_counts)
 
 # Using Matplotlib Show The Chart
 
-# print("👥 Top 5 Most Active Customers (by number of orders):\n")
+print("👥 Top 5 Most Active Customers (by number of orders):\n")
 
 
 
-# order_counts.plot(kind='bar',figsize=(10,5), title='Top 5 Active Customers', color='purple')
-# plt.xlabel("Customer ID")
-# plt.ylabel("Number of Orders")
-# plt.tight_layout()
-# plt.show()
+order_counts.plot(kind='bar',figsize=(10,5), title='Top 5 Active Customers', color='purple')
+plt.xlabel("Customer ID")
+plt.ylabel("Number of Orders")
+plt.tight_layout()
+plt.show()

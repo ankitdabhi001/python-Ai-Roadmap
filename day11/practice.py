@@ -1,4 +1,5 @@
 
+# Mini Project of Resume Builder 
 class ResumeBuilder:
     def __init__(self, name, email, skills, experience):
         self.name = name
@@ -28,12 +29,19 @@ class ResumeBuilder:
                 file.write(f"- {job}\n")
         print(f"✅ Resume saved to {filename}")
 
-# Example use
-r = ResumeBuilder(
-    name="Ankit",
-    email="ankit@example.com",
-    skills=["Python", "AI", "Data Analysis"],
-    experience=["Intern at TCS", "Freelancer at Upwork"]
-)
+
+# Input from user
+name = input("Enter your name: ")
+email = input("Enter your email: ")
+
+# Split user input into list items
+skills = input("Enter your skills (comma-separated): ").split(",")
+skills = [skill.strip() for skill in skills]  # Clean up spaces
+
+experience = input("Enter your experience (comma-separated): ").split(",")
+experience = [job.strip() for job in experience]
+
+# Create resume object and run methods
+r = ResumeBuilder(name, email, skills, experience)
 r.display()
 r.save_to_file()

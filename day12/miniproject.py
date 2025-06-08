@@ -1,3 +1,5 @@
+
+# Smart Contact Search or Add
 contacts = []
 
 class Contact:

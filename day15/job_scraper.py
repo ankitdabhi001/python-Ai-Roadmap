@@ -1,3 +1,6 @@
+
+# Job Trend Analyzer Bot
+
 from gpt4all import GPT4All
 import requests
 from bs4 import BeautifulSoup

@@ -1,3 +1,6 @@
+
+# Tranding News Summrized By GPT4ALL
+
 import requests
 from gpt4all import GPT4All
 
@@ -13,7 +16,6 @@ titles = [f"{i+1}. {a['title']}" for i, a in enumerate(articles)]
 news_text = "\n".join(titles)
 
 # 3. Summirized Using GPT4ALL
-
 
 model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"  # ✅ folder containing your model
 

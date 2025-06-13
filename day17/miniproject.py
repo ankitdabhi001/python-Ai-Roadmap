@@ -1,3 +1,6 @@
+
+# Ecommerce Data Cleaning And Grouping
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -26,15 +29,11 @@ print("Monthly Sales")
 print(a)
 
 
-order_counts = df['customer_id'].value_counts().head(3)
-print("Most Active Customer :")
+order_counts = df['customer_id'].value_counts().head(5)
+print(" Top 5 Most Active Customers (by number of orders):")
 print(order_counts)
 
 # Using Matplotlib Show The Chart
-
-print("👥 Top 5 Most Active Customers (by number of orders):\n")
-
-
 
 order_counts.plot(kind='bar',figsize=(10,5), title='Top 5 Active Customers', color='purple')
 plt.xlabel("Customer ID")

@@ -41,7 +41,7 @@ projects = [
         "title": "YouTube Script Generator",
         "description": "AI-powered tool that generates engaging YouTube scripts from topics.",
         "tech": ["Python", "LLaMA", "Streamlit"],
-        "github": "https://github.com/ankitdabhi001/youtube-script-writer",
+        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap",
         "demo": ""
     }
 ]

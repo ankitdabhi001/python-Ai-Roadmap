@@ -1,0 +1,15 @@
+Job Title: Python Developer (AI + Automation)
+
+Company: TechNova Solutions
+
+Responsibilities:
+- Develop automation scripts using Python
+- Integrate APIs and handle JSON data
+- Work on AI-based tools and models (like GPT, LLaMA)
+- Experience with Git, version control, and prompt engineering
+
+Required Skills:
+- Strong in Python fundamentals
+- Experience with AI tools (OpenAI, DeepSeek, etc.)
+- Regex and data parsing
+- Familiarity with GitHub and deployment

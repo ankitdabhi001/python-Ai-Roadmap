@@ -1,0 +1,46 @@
+
+Ankit Dabhi
+
+🔗 LinkedIn: https://www.linkedin.com/in/ankitdabhi
+💻 GitHub: https://github.com/ankitdabhi001
+📍 Botad, Gujarat, India | 📞 +91 6354090832 | 📧 ankitdabhi77777@gmail.com
+
+Professional Summary
+
+Passionate Python Developer & Data Analyst skilled in building AI-powered tools, automating workflows, and creating data-driven solutions. Proficient in Python, SQL, and data visualization using Pandas and Matplotlib. Hands-on experience with GPT4All and web scraping. Seeking roles in data analytics or AI development to solve real-world problems with intelligent automation.
+
+Experience
+
+Python Developer & Data Analyst – Self-Directed Projects
+Jan 2025 – Present
+- Automated data pipelines with Python, reducing manual data entry by 90%.
+- Built GPT4All-based AI tools for text analysis and pattern recognition.
+- Created dashboards using Pandas & Matplotlib to derive business insights.
+- Designed web scraping utilities for real-time data extraction from multiple websites.
+- Developed a full-stack Boat Booking System (PHP, HTML, CSS, JS).
+- Managed SQL databases to optimize data storage and querying.
+
+Certifications & Job Simulations
+
+Deloitte Australia Data Analytics Job Simulation – Forage, June 2025
+- Completed real-world tasks in data analysis and forensic technology.
+- Built a Tableau dashboard to visualize trends and insights.
+- Used Excel for data classification and deriving business conclusions.
+
+Education
+
+Bachelor of Computer Applications (BCA)
+Shree Adarsh College, 2023 – 2025 (Expected)
+- Core Subjects: Python, DBMS, Data Structures
+- Participated in programming contests & AI forums
+Higher Secondary (Commerce)
+Shree R.P. Kordiya Uchha Madhyamik School, 2023
+- Focused on Mathematics & Business
+
+Skills 
+
+Programming & AI : Python, GPT4All, Regex, Web Scraping, Machine Learning (Basics)
+Data Tools : Tableau, NumPy, Pandas, Matplotlib, SQL, Excel, Data Modeling, Spreadsheets
+Web Development : PHP, HTML, CSS, JavaScript
+Other : Git, VS Code, API Integration, Debugging & Testing
+

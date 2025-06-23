@@ -34,7 +34,7 @@ projects = [
         "title": "Resume Analyzer",
         "description": "Parses and analyzes resumes vs job descriptions using regex and NLP.",
         "tech": ["Python", "Regex", "LangChain"],
-        "github": "https://github.com/ankitdabhi001/resume-analyzer",
+        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap/analyze.py",
         "demo": ""
     },
     {

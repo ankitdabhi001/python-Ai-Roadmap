@@ -72,7 +72,7 @@ with open("Ankit_Dabhi_Resume_2025.pdf", "rb") as resume_file:
     st.download_button(
         label="📥 Download Resume",
         data=resume_file,
-        file_name="Ankit_Dabhi_Resume.pdf",
+        file_name="Ankit_Dabhi_Resume_2025.pdf",
         mime="application/pdf"
     )
 

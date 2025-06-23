@@ -68,7 +68,7 @@ for proj in projects:
 # ----------------- RESUME SECTION --------------------
 st.subheader("📄 Resume")
 
-with open("Ankit_Dabhi_Resume_2025.pdf", "rb") as resume_file:
+with open("day23/Ankit_Dabhi_Resume_2025.pdf", "rb") as resume_file:
     st.download_button(
         label="📥 Download Resume",
         data=resume_file,

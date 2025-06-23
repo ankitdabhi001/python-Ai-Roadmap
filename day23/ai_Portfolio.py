@@ -31,13 +31,6 @@ st.subheader("🚀 Projects")
 
 projects = [
     {
-        "title": "AI Note Keeper",
-        "description": "A smart note-taking app with AI tagging and natural language search.",
-        "tech": ["Python", "Streamlit", "OpenAI API"],
-        "github": "https://github.com/ankitdabhi001/ai-note-keeper",
-        "demo": "https://huggingface.co/spaces/ankitdabhi001/ai-note-keeper"
-    },
-    {
         "title": "Resume Analyzer",
         "description": "Parses and analyzes resumes vs job descriptions using regex and NLP.",
         "tech": ["Python", "Regex", "LangChain"],

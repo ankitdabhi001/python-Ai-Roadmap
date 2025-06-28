@@ -31,17 +31,34 @@ st.subheader("🚀 Projects")
 
 projects = [
     {
-        "title": "Resume Analyzer",
-        "description": "Parses and analyzes resumes vs job descriptions using regex and NLP.",
+        "title": "AI Resume Screener",
+        "description": "Parse resumes and job descriptions, extract key skills using Regex/NLP, and generate match scores to simulate ATS systems.",
         "tech": ["Python", "Regex", "LangChain"],
-        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap",
+        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/Resume_Ai(PROJECT).py",
         "demo": ""
     },
+
+    {
+        "title": "AI Gmail Reader + Email Summirizer",
+        "description": "Automates inbox reading via IMAP, summarizes long emails using LLMs (OpenAI/DeepSeek), and can schedule responses.",
+        "tech": ["Python, IMAPLib, OpenAI API, Streamlit"],
+        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/AI_Email_Summarizer(PROJECT).py",
+        "demo": ""
+    },
+
+    {
+        "title": "Smart Contact Book",
+        "description": "A command-line contact manager built using Python OOP. Lets users add, search, update, and delete contacts with tagging support.",
+        "tech": ["Python, Classes & Inheritance (OOP), CLI"],
+        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/smart_contact(project).py",
+        "demo": ""
+    },
+
     {
         "title": "YouTube Script Generator",
         "description": "AI-powered tool that generates engaging YouTube scripts from topics.",
         "tech": ["Python", "LLaMA", "Streamlit"],
-        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap",
+        "github": "https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/Youtube_script(PROJECT).py",
         "demo": ""
     }
 ]

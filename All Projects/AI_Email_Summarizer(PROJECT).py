@@ -17,7 +17,7 @@ model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"
 # Gmail App Login
 # --------------------------
 EMAIL = "a1000aje@gmail.com"
-PASSWORD = "zbvh aidd ahgv vqzh"  # App password (NOT your normal password)
+PASSWORD = "app_password"  # App password (NOT your normal password)
 
 # --------------------------
 # Clean Email Function

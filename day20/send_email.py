@@ -48,4 +48,3 @@ print("mail is sending success fully")
 
 ob.quit()
 
-# ,"kanazariyasumit92gmail.com"

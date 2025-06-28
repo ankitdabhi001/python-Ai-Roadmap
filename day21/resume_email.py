@@ -9,7 +9,7 @@ from email.message import EmailMessage
 # 📧 EMAIL CONFIG
 # -------------------------
 YOUR_EMAIL = "a1000aje@gmail.com" 
-APP_PASSWORD =  "zbvh aidd ahgv vqzh"   # Use Gmail App Password
+APP_PASSWORD =  "app_password"   # Use Gmail App Password
 RECEIVER_EMAIL = "ankitdabhi77777@gmail.com"
 
 # -------------------------

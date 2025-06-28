@@ -10,7 +10,7 @@ def job():
     # Connect to Gmail
     ob = s.SMTP('smtp.gmail.com', 587)
     ob.starttls()
-    ob.login("a1000aje@gmail.com", 'zbvh aidd ahgv vqzh')  # App password
+    ob.login("a1000aje@gmail.com", 'app_password')  # App password
 
     # Email content
     sub = "[NOTICE] ₹5,837.00 Debited for HF Deluxe Bike Insurance"

@@ -1,3 +1,6 @@
+
+# AI EMAIL SUMMARIZER PROJECT
+
 import imaplib
 import email
 from email.header import decode_header

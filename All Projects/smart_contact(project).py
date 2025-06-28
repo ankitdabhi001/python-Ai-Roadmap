@@ -1,3 +1,6 @@
+
+# SMART CONTACT BOOK PROJECT
+
 class Contact:
     def __init__(self, name, phone, email, tags=None):
         self.name = name

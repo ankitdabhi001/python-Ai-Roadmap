@@ -11,7 +11,7 @@
 ### 📄 1. AI Resume Screener
 > Parse resumes and job descriptions, extract key skills using Regex/NLP, and generate match scores to simulate ATS systems.
 - **Tech Stack:** Python, Regex, NLTK, Streamlit
-- 🔗 [View Project](https://github.com/ankitdabhi001/python_Ai-Roadmap/All Projects)
+- 🔗 [View Project](https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/AI_Email_Summarizer(PROJECT).py)
 
 ---
 

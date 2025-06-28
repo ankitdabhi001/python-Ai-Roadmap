@@ -18,13 +18,15 @@
 ### ✉️ 2. Gmail Reader + AI Summarizer
 > Automates inbox reading via IMAP, summarizes long emails using LLMs (OpenAI/DeepSeek), and can schedule responses.
 - **Tech Stack:** Python, IMAPLib, OpenAI API, Streamlit
-- 🔗 [View Project](https://github.com/ankitdabhi001/ai-gmail-summarizer)
+- 🔗 [View Project](https://github.com/ankitdabhi001/)
 
 ---
 ### 📱 3. Smart Contact Book (CLI)
 A command-line contact manager built using Python OOP. Lets users add, search, update, and delete contacts with tagging support.
 - **Tech Stack:** Python, Classes & Inheritance (OOP), CLI
 - 🔗 [View Project](https://github.com/ankitdabhi001/ai-gmail-summarizer)
+
+---
 
 ### 🎬 4. YouTube Script Generator (LLM-based)
 > Converts a simple topic prompt into an engaging, AI-written YouTube script using LLaMA or GPT4All models locally.

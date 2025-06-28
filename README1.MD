@@ -11,20 +11,20 @@
 ### 📄 1. AI Resume Screener
 > Parse resumes and job descriptions, extract key skills using Regex/NLP, and generate match scores to simulate ATS systems.
 - **Tech Stack:** Python, Regex, NLTK, Streamlit
-- 🔗 [View Project](https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/AI_Email_Summarizer(PROJECT).py)
+- 🔗 [View Project](https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/Resume_Ai(PROJECT).py)
 
 ---
 
 ### ✉️ 2. Gmail Reader + AI Summarizer
 > Automates inbox reading via IMAP, summarizes long emails using LLMs (OpenAI/DeepSeek), and can schedule responses.
 - **Tech Stack:** Python, IMAPLib, OpenAI API, Streamlit
-- 🔗 [View Project](https://github.com/ankitdabhi001/)
+- 🔗 [View Project](https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/AI_Email_Summarizer(PROJECT).py)
 
 ---
 ### 📱 3. Smart Contact Book (CLI)
 A command-line contact manager built using Python OOP. Lets users add, search, update, and delete contacts with tagging support.
 - **Tech Stack:** Python, Classes & Inheritance (OOP), CLI
-- 🔗 [View Project](https://github.com/ankitdabhi001/ai-gmail-summarizer)
+- 🔗 [View Project](https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/smart_contact(project).py)
 
 ---
 

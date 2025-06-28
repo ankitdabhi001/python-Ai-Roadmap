@@ -31,7 +31,7 @@ A command-line contact manager built using Python OOP. Lets users add, search, u
 ### 🎬 4. YouTube Script Generator (LLM-based)
 > Converts a simple topic prompt into an engaging, AI-written YouTube script using LLaMA or GPT4All models locally.
 - **Tech Stack:** Python, Streamlit, GPT4All, LLaMA
-- 🔗 [View Project](https://github.com/ankitdabhi001/youtube-script-generator)
+- 🔗 [View Project](https://github.com/ankitdabhi001/python-Ai-Roadmap/blob/main/All%20Projects/Youtube_script(PROJECT).py)
 
 ---
 

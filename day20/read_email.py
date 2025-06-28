@@ -1,57 +1,73 @@
-
-# READ EMAIL 
-
 import imaplib
 import email
 from email.header import decode_header
 from gpt4all import GPT4All
 
-model_name="Llama-3.2-3B-Instruct-Q4_0.gguf"
+# --------------------------
+# LLM Setup
+# --------------------------
+
+model_name = "deepseek-llm-7b-chat.Q4_K_M.gguf"
 model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"
-model = GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf", model_path=model_path, allow_download=False)
 
-
-# ------------------------------
-# 1. Gmail IMAP credentials
-# ------------------------------
+# --------------------------
+# Gmail App Login
+# --------------------------
 EMAIL = "a1000aje@gmail.com"
-PASSWORD = "Your App Password"  # Use Gmail App Password (not your normal password)
+PASSWORD = "zbvh aidd ahgv vqzh"  # App password (NOT your normal password)
 
-# ------------------------------
-# 2. Connect to Gmail Server
-# ------------------------------
-mail = imaplib.IMAP4_SSL("imap.gmail.com")  # SSL-secure connection
-mail.login(EMAIL,PASSWORD)
+# --------------------------
+# Clean Email Function
+# --------------------------
+def clean_email(text):
+    lines = text.splitlines()
+    keep = []
+    for line in lines:
+        if any(x in line.lower() for x in ["unsubscribe", "view in browser", "confidential", "--", "gmail.com> wrote"]):
+            break
+        keep.append(line)
+    return "\n".join(keep).strip()
 
-# ------------------------------
-# 3. Select the inbox
-# ------------------------------
+# --------------------------
+# Summarization Prompt
+# --------------------------
+def create_prompt(cleaned_text):
+    return f"""
+You are an intelligent assistant. Read the email below and summarize it in clear bullet points, focusing on key updates, deadlines, or tasks.
+
+Email:
+-------
+{cleaned_text}
+
+Summary:
+- 
+"""
+
+# --------------------------
+# Connect to Gmail + Read Emails
+# --------------------------
+
+mail = imaplib.IMAP4_SSL("imap.gmail.com")
+mail.login(EMAIL, PASSWORD)
 mail.select("inbox")
 
-# ------------------------------
-# 4. Search all emails
-# ------------------------------
 status, messages = mail.search(None, "ALL")
-
-# Get the list of email IDs
 email_ids = messages[0].split()
-latest_5_ids = email_ids[-1:]  # Last 1 emails
+latest_ids = email_ids[-1:]  # Last 5 emails
 
-# ------------------------------
-# 5. Read each email
-# ------------------------------# Open GPT4All model once
+# --------------------------
+# Run summarization
+# --------------------------
 with GPT4All(model_name, model_path=model_path, allow_download=False) as model:
-    for i in reversed(latest_5_ids):
+    for i in reversed(latest_ids):
         status, data = mail.fetch(i, "(RFC822)")
         if status != "OK" or data is None:
-            print(f"Failed to fetch email ID {i}")
             continue
 
         try:
             raw_email = data[0][1]
             msg = email.message_from_bytes(raw_email)
         except:
-            print(f"Error decoding email ID {i}")
             continue
 
         subject, encoding = decode_header(msg["Subject"])[0]
@@ -60,6 +76,7 @@ with GPT4All(model_name, model_path=model_path, allow_download=False) as model:
 
         from_ = msg.get("From", "Unknown")
 
+        # Extract plain text body
         body = ""
         if msg.is_multipart():
             for part in msg.walk():
@@ -76,17 +93,23 @@ with GPT4All(model_name, model_path=model_path, allow_download=False) as model:
                 body = msg.get_payload(decode=True).decode(errors="ignore")
             except:
                 body = "[Error reading body]"
-        new_body=body[:4000]
-        prompt = f"Summarize this email in 2-3 sentences:\n{new_body}"
+
+        # Clean + Summarize
+        clean_text = clean_email(body[:4000])
+        prompt = create_prompt(clean_text)
         summary = model.generate(prompt, max_tokens=150)
 
+        # Output
         print("=" * 60)
         print(f"📨 Subject: {subject}")
         print(f"👤 From: {from_}")
-        print(f"📝 Body Preview:\n{body[:100]}...\n")
-        print(f"🧠 Summary:\n{summary}")
+        print(f"📝 Body Preview:\n{body[:120]}...\n")
+        print(f"🧠 Summary:\n{summary.strip()}")
         print("=" * 60)
-# ------------------------------
-# 6. Logout from the server
-# ------------------------------
+
+        # Save to file (optional)
+        with open("email_summaries.txt", "a", encoding="utf-8") as f:
+            f.write(f"Subject: {subject}\nFrom: {from_}\nSummary:\n{summary.strip()}\n{'='*60}\n\n")
+
+# Logout from Gmail
 mail.logout()

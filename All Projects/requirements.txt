@@ -1,0 +1,11 @@
+# For ResumeBuilder AI
+fpdf2==2.7.8
+
+# For Smart Contact Book
+# (No extra libraries needed, pure Python)
+
+# For Offline Gmail Email Summarizer
+gpt4all==2.7.0
+requests==2.31.0
+email  # built-in, listed for clarity
+imaplib  # built-in, listed for clarity

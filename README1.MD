@@ -48,7 +48,6 @@ A command-line contact manager built using Python OOP. Lets users add, search, u
 ## 🌐 Portfolio & Resume
 
 📎 [My Live Portfolio](https://python-ai-roadmap-bmgd4qgi2zk7uv9zddlsiv.streamlit.app/)  
-📄 [Download Resume](https://your-portfolio-link.com#resume-section)
 
 ---
 

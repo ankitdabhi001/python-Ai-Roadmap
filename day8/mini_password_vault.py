@@ -30,8 +30,6 @@ new_password = st.text_input("Password", type="password", key="new_password")
 if st.button("Add Credentials"):
     if new_platform and new_username and new_password:
         st.session_state.vault[new_platform] = (new_username, new_password)
-        st.success(f"Credentials added for {new_platform}!")
-        # Clear inputs after adding
-        st.experimental_rerun()
+        st.success(f"Credentials added for {new_platform}!")     
     else:
         st.error("Please fill in all fields to add credentials.")

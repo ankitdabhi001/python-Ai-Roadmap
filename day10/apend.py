@@ -1,6 +1,8 @@
-ab=input("enter your note")
+# Add New Content In Old File End Without Erasing Old Content. 
+
+Content=input("Enter New Content=")
 
 with open("abc.txt","a")as newfile:
-    newfile.write(ab)
+    newfile.write("\n"+ Content)
 
-print("new  text is added")
+print("New  Content is added")

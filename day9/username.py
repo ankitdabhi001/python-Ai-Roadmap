@@ -12,7 +12,7 @@ def user(username):
         print(f"welcome {username}")
 
 while True:
-
+    print("Enter Exit to quit ")
     a=input("enter user name = ")
     if a.lower() == "exit":
         break

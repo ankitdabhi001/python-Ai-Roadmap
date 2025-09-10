@@ -1,6 +1,6 @@
 # Sample candidate skill lists
 candidate_1 = ["Python", "Machine Learning", "SQL", "Git"]
-candidate_2 = ["Java", "Python", "SQL", "Docker"]
+candidate_2 = ["Java", "python", "SQL", "Docker"]
 
 # Clean and convert to sets (for intersection)
 skills_1 = set(skill.strip().title() for skill in candidate_1)

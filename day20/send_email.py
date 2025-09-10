@@ -6,7 +6,7 @@ ob=s.SMTP('smtp.gmail.com',587)
 
 ob.starttls()
 
-ob.login("a1000aje@gmail.com",'app_password')
+ob.login("sender@gmail.com",'app_password')
 
 sub=" [NOTICE] ₹5,837.000 Debited for HF Deluxe Bike Insurance"
 ss="Mayur Dabhi"
@@ -37,8 +37,8 @@ SafeRide™ Auto Insurance Pvt. Ltd.
 """
 
 msg= MIMEMultipart()
-msg['from']="a1000aje@gmail.com"
-msg['to']="jatindetroja8@gmail.com"
+msg['from']="sender@gmail.com"
+msg['to']="receiver@gmail.com"
 msg['subject']=sub
 msg.attach(MIMEText(body, 'plain', 'utf-8'))
 

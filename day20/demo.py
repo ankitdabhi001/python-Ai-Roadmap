@@ -10,7 +10,7 @@ def job():
     # Connect to Gmail
     ob = s.SMTP('smtp.gmail.com', 587)
     ob.starttls()
-    ob.login("a1000aje@gmail.com", 'app_password')  # App password
+    ob.login("Sender@gmail.com", ' App_Password ')  # App password
 
     # Email content
     sub = "[NOTICE] ₹5,837.00 Debited for HF Deluxe Bike Insurance"
@@ -43,8 +43,8 @@ SafeRide™ Auto Insurance Pvt. Ltd.
 
     # Compose email
     msg = MIMEMultipart()
-    msg['From'] = "a1000aje@gmail.com"
-    msg['To'] = "nikuljambukiya0@gmail.com"
+    msg['From'] = "sender@gmail.com"
+    msg['To'] = "Receiver@gmail.com"
     msg['Subject'] = sub
     msg.attach(MIMEText(body, 'plain', 'utf-8'))
 

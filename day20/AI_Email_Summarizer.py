@@ -7,14 +7,14 @@ from gpt4all import GPT4All
 # LLM Setup
 # --------------------------
 
-model_name = "deepseek-llm-7b-chat.Q4_K_M.gguf"
+model_name = "Llama-3.2-3B-Instruct-Q4_0.gguf"
 model_path = "E:/Python Roadmap/python-Ai-Roadmap/models"
 
 # --------------------------
 # Gmail App Login
 # --------------------------
-EMAIL = "a1000aje@gmail.com"
-PASSWORD = "app_password"  # App password (NOT your normal password)
+EMAIL = "sender@gmail.com"
+PASSWORD = " App_Password"  # App password (NOT your normal password)
 
 # --------------------------
 # Clean Email Function

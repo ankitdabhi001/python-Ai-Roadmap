@@ -1,8 +1,8 @@
 Name: ankit
-Email: ankit@123gmail.com
+Email: ankit@gmail.com
 Skills:
 - python
-- java
+- sql
 Experience:
-- 1 year coding
-- 1 year intern
+- hhhhhhadahdfh
+- hhsyyywyy
